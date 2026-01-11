@@ -12,9 +12,8 @@ import net.minecraft.world.item.ItemStack
 //On destroy, fall, hurt, pickup
 object UnyieldingItemsClient : ClientModInitializer {
 	override fun onInitializeClient() {
-		// This entrypoint is suitable for setting up client-specific logic, such as rendering.
 		AttackBlockCallback.EVENT.register(AttackBlockCallback { playerEntity, world, hand, blockPos, direction ->
-//			println("Attack Block Callback")
+			println("Attack Block Callback")
 			repairItemInHand(playerEntity, hand)
 			return@AttackBlockCallback InteractionResult.PASS
 		})
