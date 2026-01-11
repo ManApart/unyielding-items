@@ -1,7 +1,7 @@
 modLoader="kotlinforforge"
-loaderVersion="[3,)"
+loaderVersion="[4.10,)"
 license="Creative Commons Attribution-NonCommercial-NoDerivatives 4.0"
-issueTrackerURL="https://github.com/ManApart/Lumberjack/issues"
+issueTrackerURL="https://github.com/ManApart/unyielding-items/issues"
 
 [[mods]]
     modId="unyielding_items"
@@ -16,6 +16,12 @@ issueTrackerURL="https://github.com/ManApart/Lumberjack/issues"
 [[dependencies.unyielding_items]]
     modId="forge"
     mandatory=true
-    versionRange="[41,)"
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.unyielding_items]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1)"
     ordering="NONE"
     side="BOTH"
