@@ -3,6 +3,7 @@
 	"package": "com.manapart.unyieldingitems.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
+		"OnBrokenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
